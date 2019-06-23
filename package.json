@@ -1,0 +1,24 @@
+{
+  "name": "aprendendo_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "roda": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProfessorMarcolan/aprendendo_node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProfessorMarcolan/aprendendo_node/issues"
+  },
+  "homepage": "https://github.com/ProfessorMarcolan/aprendendo_node#readme",
+  "dependencies": {
+    "tmi.js": "^1.4.5"
+  }
+}
