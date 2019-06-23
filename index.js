@@ -6,6 +6,7 @@ let rawdata = fs.readFileSync('student.json');
 const opts = JSON.parse(rawdata);
 
 
+
 //  configurando o cliente 
 const client = new tmi.client(opts)
 client.on('message', onMessageHandler);
